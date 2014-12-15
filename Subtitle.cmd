@@ -1,6 +1,6 @@
 @echo off
 cls
-set PATH=%PATH%;C:\Python27\
+set PATH=%PATH%;C:\Python34\
 :my_loop
 IF %1=="" GOTO completed
   python C:\subtitle-downloader.py %1
